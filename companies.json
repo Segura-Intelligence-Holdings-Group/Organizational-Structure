@@ -1,0 +1,36 @@
+{
+  "organizations": [
+    {
+      "id": 1,
+      "name": "Segura Intelligence Holdings Group LP",
+      "type": "Limited Partnership",
+      "role": "Parent Holding Company",
+      "parent_id": null,
+      "subsidiaries": [2, 3, 4]
+    },
+    {
+      "id": 2,
+      "name": "IT Specialties, LP",
+      "type": "Limited Partnership",
+      "role": "Subsidiary",
+      "parent_id": 1,
+      "subsidiaries": []
+    },
+    {
+      "id": 3,
+      "name": "Segura Mgmt LLC",
+      "type": "Limited Liability Company",
+      "role": "Management Company",
+      "parent_id": 1,
+      "subsidiaries": []
+    },
+    {
+      "id": 4,
+      "name": "BPS Industries LLC",
+      "type": "Limited Liability Company",
+      "role": "Subsidiary",
+      "parent_id": 1,
+      "subsidiaries": []
+    }
+  ]
+}
